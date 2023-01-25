@@ -1,0 +1,682 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>edgebookOS</title>
+    <meta
+      name="keywords"
+      content="edgebookOS"
+    />
+    <meta
+      name="description"
+      content="edgebookOS"
+    />
+    <meta
+      content="edgebookOS"
+      property="og:title"
+    />
+    <meta
+      content="edgebookOS"
+      property="og:description"
+    />
+    <meta
+      content="edgebookOS"
+      itemprop="name"
+    />
+    <meta
+      content="edgebookOS"
+      itemprop="description"
+    />
+    <meta name="apple-mobile-web-app-title" content="edgebookOS" />
+    <meta name="application-name" content="edgebookOS" />
+    <link
+      rel="preload"
+      href="img/bgpic.png"
+      as="image"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
+    <link
+      rel="icon"
+      href="img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="js/swiper-7.4.1/swiper/swiper-bundle.min.css"
+    />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-7.4.1/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header">
+      <div id="header-box">
+        <!-- 菜单按钮 -->
+        <div id="menu-icon">
+          <i class="menu-icon-item"></i>
+          <i class="menu-icon-item"></i>
+          <i class="menu-icon-item"></i>
+          <!-- 移动端的导航 -->
+          <ul
+            id="nav-box-pad"
+            class="select-menu-box select-menu pad-show mobile-show"
+          >
+            <li class="select-menu-item">
+              <a
+                href="jiaocheng.html"
+                target="_blank"
+                class="select-menu-item__box"
+              >
+                <i class="select-menu-item__icon">
+                  <img
+                    src="img/course-mobile@2x.png"
+                  />
+                </i>
+                <span class="select-menu-item__text">教程</span>
+              </a>
+            </li>
+            <!-- <li class="select-menu-item nav-item nav-item-mobile">
+              <div class="select-menu-item__box">
+                <i class="select-menu-item__icon">
+                  <img src="img/IMG-LOGO@2x.png" />
+                </i>
+                <span class="select-menu-item__text">edgebookOS</span>
+              </div>
+              <div class="select-menu-box">
+                <ul class="select-menu">
+                  <li class="select-menu-item">
+                    <a href="#" target="_blank" class="select-menu-item__box">
+                      <i class="select-menu-item__icon">
+                        <img src="img/IMG-LOGO@2x.png" />
+                      </i>
+                      <span class="select-menu-item__text">Android</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li> -->
+            <li class="select-menu-item nav-item nav-item-mobile">
+              <div class="select-menu-item__box">
+                <i class="select-menu-item__icon">
+                  <img
+                    src="https://static.infinitytab.com/infinity-official/img/mobile@2x.png"
+                  />
+                </i>
+                <span class="select-menu-item__text">加入交流群</span>
+              </div>
+              <!-- 下拉菜单 -->
+              <div class="select-menu-box">
+                <ul class="select-menu">
+                  <li class="select-menu-item">
+                    <a
+                      href="https://jq.qq.com/?_wv=1027&k=ojsOodrL"
+                      target="_blank"
+                      class="select-menu-item__box"
+                    >
+                      <i class="select-menu-item__icon">
+                        <img
+                          src="https://static.infinitytab.com/infinity-official/img/Chrome@2x.png"
+                        />
+                      </i>
+                      <span class="select-menu-item__text">QQ闲聊群</span>
+                    </a>
+                  </li>
+                  <li class="select-menu-item">
+                    <a
+                      href="https://jq.qq.com/?_wv=1027&k=pih5gZfj"
+                      target="_blank"
+                      class="select-menu-item__box"
+                    >
+                      <i class="select-menu-item__icon">
+                        <img
+                          src="https://static.infinitytab.com/infinity-official/img/safari@2x.png"
+                        />
+                      </i>
+                      <span class="select-menu-item__text">QQ交流群</span>
+                    </a>
+                  </li>
+                  <li class="select-menu-item">
+                    <a
+                      href="https://jq.qq.com/?_wv=1027&k=ojsOodrL"
+                      target="_blank"
+                      class="select-menu-item__box"
+                    >
+                      <i class="select-menu-item__icon">
+                        <img
+                          src="https://static.infinitytab.com/infinity-official/img/crx@2x.png"
+                        />
+                      </i>
+                      <span class="select-menu-item__text">QQ读书历史群</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item nav-item-pc">
+              <div class="nav-item__box">
+                <i class="nav-item__icon">
+                  <img
+                    src="https://static.infinitytab.com/infinity-official/img/pc@2x.png"
+                  />
+                </i>
+                <span class="select-menu-item__text">下载ISO</span>
+              </div>
+                <!-- 下拉菜单 -->
+                <div class="select-menu-box">
+                  <ul class="select-menu">
+                    <li class="select-menu-item">
+                      <a
+                        href="pages/1.html"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/Chrome@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">专业版</span>
+                      </a>
+                    </li>
+                    <li class="select-menu-item">
+                      <a
+                        href="pages/2.html"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/firefox@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">家庭版</span>
+                      </a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="select-menu-item">
+              <a
+                href="demo.html"
+                target="_blank"
+                class="select-menu-item__box"
+              >
+                <i class="select-menu-item__icon">
+                  <img
+                    src="https://static.infinitytab.com/infinity-official/img/web-mobile@2x.png"
+                  />
+                </i>
+                <span class="select-menu-item__text">网页版演示</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- logo -->
+        <h1 id="logo">
+          <a
+            href="index.html"
+            id="logo-link"
+            title="edgebookOS"
+          >
+            edgebookOS
+          </a>
+        </h1>
+        <section id="header-right">
+          <!-- 导航菜单 -->
+          <nav id="nav">
+            <!-- pc端的导航 -->
+            <ul id="nav-box-pc" class="pc-show">
+              <li class="nav-item-pc">
+                <a
+                  href="jiaocheng.html"
+                  target="_blank"
+                  class="nav-item__box"
+                >
+                  <i class="nav-item__icon">
+                    <img
+                      src="https://static.infinitytab.com/infinity-official/img/course@2x.png"
+                    />
+                  </i>
+                  <span class="nav-item__text">教程</span>
+                </a>
+              </li>
+              <!-- <li class="nav-item nav-item-pc">
+                <div class="nav-item__box">
+                  <i class="nav-item__icon">
+                    <img src="edgebookOS" />
+                  </i>
+                  <span class="nav-item__text">浏览器</span>
+                </div>
+                <div class="select-menu-box">
+                  <ul class="select-menu">
+                    <li class="select-menu-item">
+                      <a href="#" target="_blank" class="select-menu-item__box">
+                        <i class="select-menu-item__icon">
+                          <img src="https://static.infinitytab.com/infinity-official/img/android@2x.png" />
+                        </i>
+                        <span class="select-menu-item__text">Android</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li> -->
+              <li class="nav-item nav-item-pc">
+                <div class="nav-item__box">
+                  <i class="nav-item__icon">
+                    <img
+                      src="https://static.infinitytab.com/infinity-official/img/mobile@2x.png"
+                    />
+                  </i>
+                  <span class="nav-item__text">加入交流群</span>
+                </div>
+                <!-- 下拉菜单 -->
+                <div class="select-menu-box">
+                  <ul class="select-menu">
+                    <li class="select-menu-item">
+                      <a
+                        href="https://jq.qq.com/?_wv=1027&k=ojsOodrL"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/Chrome@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">QQ闲聊群</span>
+                      </a>
+                    </li>
+                    <li class="select-menu-item">
+                      <a
+                        href="https://jq.qq.com/?_wv=1027&k=pih5gZfj"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/safari@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">QQ交流群</span>
+                      </a>
+                    </li>
+                    <li class="select-menu-item">
+                      <a
+                        href="https://jq.qq.com/?_wv=1027&k=ojsOodrL"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/crx@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">QQ读书历史群</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item nav-item-pc">
+                <div class="nav-item__box">
+                  <i class="nav-item__icon">
+                    <img
+                      src="https://static.infinitytab.com/infinity-official/img/pc@2x.png"
+                    />
+                  </i>
+                  <span class="nav-item__text">下载ISO</span>
+                </div>
+                <!-- 下拉菜单 -->
+                <div class="select-menu-box">
+                  <ul class="select-menu">
+                    <li class="select-menu-item">
+                      <a
+                        href="pages/1.html"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/Chrome@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">专业版</span>
+                      </a>
+                    </li>
+                    <li class="select-menu-item">
+                      <a
+                        href="pages/2.html"
+                        target="_blank"
+                        class="select-menu-item__box"
+                      >
+                        <i class="select-menu-item__icon">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/firefox@2x.png"
+                          />
+                        </i>
+                        <span class="select-menu-item__text">家庭版</span>
+                      </a>
+                    </li>
+                  </div>
+                </li>
+              </li>
+              <li class="nav-item-pc">
+                <a
+                  href="demo.html"
+                  target="_blank"
+                  class="nav-item__box"
+                >
+                  <i class="nav-item__icon">
+                    <img
+                      src="https://static.infinitytab.com/infinity-official/img/web@2x.png"
+                    />
+                  </i>
+                  <span class="nav-item__text">网页版演示</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- 切换语言按钮 -->
+          <div id="language-btn" class="nav-item nav-item-pc">
+            <div id="language-btn-box">
+              <span class="language-btn__text">简体中文</span>
+              <img
+                src="https://static.infinitytab.com/infinity-official/img/down.png"
+              />
+            </div>
+            <!-- 下拉菜单 -->
+            <div class="select-menu-box">
+              <ul class="select-menu">
+                <li class="select-menu-item">
+                  <a href="" class="select-menu-item__box">
+                    <span class="select-menu-item__text">简体中文</span>
+                  </a>
+                </li>
+                <li class="select-menu-item">
+                  <a href="../en/" class="select-menu-item__box">
+                    <span class="select-menu-item__text">English</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- body -->
+    <div id="main">
+      <!-- 主要内容 -->
+      <div id="sub-logo" class="pc-show pad-show">
+        <img
+          src="img/IMG-LOGO@2x.png"
+        />
+      </div>
+      <!-- main-box -->
+      <section id="main-box">
+        <div class="main-item">
+          <div class="main-item__text">
+            <h2 class="main-item__title">
+              <span class="mobile-block">重新定义</span
+              ><span>你的科技观念</span>
+            </h2>
+            <h3 class="main-item__subtitle">
+              edgebookOS是可运行32位EXE的操作系统，让你体验非微软的感受。
+            </h3>
+          </div>
+          <div class="main-item__img" id="main-img-box-1">
+            <img
+              src="img/homepage@2x.png"
+              class="pc-show"
+            />
+            <img
+              src="img/homepage@2x.png"
+              class="pad-show"
+            />
+            <img
+              src="img/homepage@2x.png"
+              class="mobile-show"
+            />
+          </div>
+        </div>
+        <div class="main-item">
+          <div class="main-item__text">
+            <h2 class="main-item__title">轻松管理常用软件</h2>
+            <h3 class="main-item__subtitle">
+              <span class="mobile-block"
+                >快速添加常用图标，颜色、大小、布局均可自由定制，一目了然</span
+              >
+            </h3>
+          </div>
+          <div class="main-item__img" id="main-img-box-2">
+            <img
+              src="img/adjust@2x.png"
+              class="pc-show pad-show"
+            />
+            <img
+              src="img/adjust@2x.png"
+              class="mobile-show"
+            />
+          </div>
+        </div>
+        <div class="main-item">
+          <div class="main-item__text">
+            <h2 class="main-item__title">文件夹</h2>
+            <h3 class="main-item__subtitle">
+              使用文件夹对图标进行分组管理，一键打开多个常用软件，告别杂乱无章
+            </h3>
+          </div>
+          <div class="main-item__img" id="main-img-box-3">
+            <img
+              src="img/folder@2x.png"
+              class="pc-show pad-show"
+            />
+            <img
+              src="img/folder@2x.png"
+              class="mobile-show"
+            />
+          </div>
+        </div>
+        <div class="main-item">
+          <div class="main-item__text">
+            <h2 class="main-item__title">工作效率提升工具</h2>
+            <h3 class="main-item__subtitle">
+              随时使用笔记和待办事项，随手记录与管理各项任务
+            </h3>
+          </div>
+          <div class="main-item__img" id="main-img-box-4">
+            <img
+              src="https://static.infinitytab.com/infinity-official/img/tool@2x.png?imageView2/2/q/100"
+              class="pc-show pad-show"
+            />
+            <img
+              src="https://static.infinitytab.com/infinity-official/img/tool2@2x.png?imageView2/2/q/100"
+              class="mobile-show"
+            />
+          </div>
+        </div>
+        <div class="main-item">
+          <div class="main-item__text">
+            <h2 class="main-item__title">精选高清壁纸</h2>
+            <h3 class="main-item__subtitle">
+              内置海量高清壁纸源，可设置定时切换，让界面赏心悦目
+            </h3>
+          </div>
+          <div class="main-item__img" id="main-img-box-5">
+            <img
+              src="https://static.infinitytab.com/infinity-official/img/bg@2x.png?imageView2/2/q/100"
+              class="pc-show pad-show"
+            />
+            <img
+              src="https://static.infinitytab.com/infinity-official/img/bg2@2x.png?imageView2/2/q/100"
+              class="mobile-show"
+            />
+          </div>
+        </div>
+          <!-- 介绍 -->
+          <div id="comment-box">
+            <span id="comment-box__title">产品介绍</span>
+            <div id="comment-swipe" style="height: 200px; margin-top: 20px">
+              <div id="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="comment-item">
+                      <div class="comment-item__header">
+                        <span class="comment-item__user">explorer</span>
+                        <div class="comment-item__star">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-item__content">
+                        explorer，体验Windows XP的资源管理器
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="comment-item">
+                      <div class="comment-item__header">
+                        <span class="comment-item__user">regedit</span>
+                        <div class="comment-item__star">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-item__content">
+                        regedit，注册表
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="comment-item">
+                      <div class="comment-item__header">
+                        <span class="comment-item__user">浏览器</span>
+                        <div class="comment-item__star">
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                          <img
+                            src="https://static.infinitytab.com/infinity-official/img/star@2x.png"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-item__content">
+                        浏览器，IE内核的体验，重返历史的冲浪
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="comment-button-prev" class="pc-show pad-show">
+                  <img
+                    src="https://static.infinitytab.com/infinity-official/img/left@2x.png"
+                  />
+                </div>
+                <div id="comment-button-next" class="pc-show pad-show">
+                  <img
+                    src="https://static.infinitytab.com/infinity-official/img/right@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 id="summary">使用edgebookOS 进入全新视界</h2>
+        </section>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer id="footer">
+      <section id="footer-box">
+        <!-- 二维码 -->
+        <div id="qrcode-box">
+          <div id="qrcode-img">
+            <img
+              src="img/IMG-LOGO@2x.png"
+            />
+          </div>
+          <span id="qrcode-text">edgebookOS</span>
+        </div>
+        <!-- 相关链接 -->
+        <ul id="related-links">
+          <li class="related-item">
+            <a
+              href="https://jq.qq.com/?_wv=1027&k=pih5gZfj"
+              target="_blank"
+              class="related-item__link"
+              >联系我们</a
+            >
+          </li>
+          <li class="related-item">
+            <a
+              href="https://jq.qq.com/?_wv=1027&k=pih5gZfj"
+              target="_blank"
+              class="related-item__link"
+              >用户QQ群</a
+            >
+          </li>
+        </ul>
+        <br />
+
+    <script src="https://static.infinitytab.com/infinity-official/js/main.js?v=10"></script>
+    <!-- <script src="../js/main.js?v=9"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202382853-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-202382853-7');
+    </script>
+
+  </body>
+</html>
